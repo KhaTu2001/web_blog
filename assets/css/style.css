@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+      width: 1200px;
+  }
+  
+  body{
+    overflow: hidden;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+#header{
+    width: 100%;
+}
+.navbar_User{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_avata{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+    justify-content: center;
+  overflow: hidden;     
+}
+.user_avata-img{
+    object-fit: cover;
+    flex: 1;
+    max-width: 100%;
+}
+.user_name{
+    font-weight: 500;
+    
+}
+.Lorem_text{
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.navbar_menu a{
+    text-decoration:none ;
+    color: rgb(145, 130, 130);
+}
+.nav-link.active{
+    color: black;
+}
+.content_slider div{
+    padding: 12px;
+}
+#content{
+    margin-top: 40px;
+}
+.content_userprofession{
+    color: rgb(145, 130, 130);
+}
+.container.content-featured-post{
+    margin-top: 48px;
+}
+.featured-img{
+    padding: 12px;
+}
+.container-fluid.carousel{
+    padding-top: 48px;
+}
+.form-check-submit{
+    margin: 48px 0;
+}
+.footer_item a {
+    display: flex;
+}
+.state_dropdown{
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid rgb(179, 175, 175);
+}
+.state_dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: block;
+    content: ="";
+    height: 2px;
+    background-color: #ccc;
+    margin: 48px 0;
+}
+.box p{
+    margin-left: 44%;
+}
+.form-accout{
+    padding: 52px 0;
+}
+.popular_post{
+    padding: 52px 0;
+}
